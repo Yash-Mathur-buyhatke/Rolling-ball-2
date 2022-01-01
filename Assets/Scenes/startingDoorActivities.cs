@@ -16,11 +16,11 @@ public class startingDoorActivities : MonoBehaviour
         
     }
 
-    void onTriggerEnter(Collider other){
+    void OnTriggerEnter(Collider other){
         Debug.Log("Entered in Door!");
     }
 
-    void onTriggerExit(Collider other){
+    void OnTriggerExit(Collider other){
         Debug.Log("Exitted from the Door!");
     }
 }
