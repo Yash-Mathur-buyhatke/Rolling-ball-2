@@ -36,8 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scenes\collisionDetection.cs" />
      <Compile Include="Assets\Scenes\startingDoorActivities.cs" />
+     <Compile Include="Assets\Scenes\collisionDetection.cs" />
+     <Compile Include="Assets\Scenes\gameScript.cs" />
+     <Compile Include="Assets\Scenes\ballMotionScript.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2020.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
